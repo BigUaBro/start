@@ -1,0 +1,43 @@
+html{
+    background-color: white;
+}
+body{
+    padding: 30px;
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 20%;
+    margin-left: 20%;
+    max-width: 60%;
+    min-height: 1000px;
+    box-shadow: -18px 0 20px -20px black,
+                 18px 0 20px -20px black,
+                 0 -18px 20px -20px black,
+                 0  18px 20px -20px black;
+}
+header{
+    
+    min-height: 120px;
+    min-width: 100%;
+}
+article{
+    min-height: 680px
+}
+footer{
+    height: 200px;
+    position: relative;
+}
+.border{
+    border-bottom: 3px solid black;
+}
+#logo{
+    font-size: 50px;
+    text-align: center;
+}
+#menu{
+    border:1px solid black;
+    float: left;
+}
+li{
+    list-style-type: none; 
+}
